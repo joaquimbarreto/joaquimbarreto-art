@@ -14,24 +14,35 @@ Grey dark 3: #999
 :root {
   --colour-primary: #eb2f2f;
   --colour-primary-light: rgb(255, 51, 51);
-  --colour-primary-dark: rgb(186, 38, 38); }
+  --colour-primary-dark: rgb(186, 38, 38);
+}
 
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-image: linear-gradient(to right bottom, var(--colour-primary-light), var(--colour-primary-dark));
-  background-size: cover; }
+  background-image: linear-gradient(
+    to right bottom,
+    var(--colour-primary-light),
+    var(--colour-primary-dark)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
