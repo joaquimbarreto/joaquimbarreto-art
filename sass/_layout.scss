@@ -10,6 +10,9 @@
   height: 7rem;
   background-color: #ffffff;
   border-bottom: var(--grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
