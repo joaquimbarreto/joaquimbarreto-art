@@ -13,6 +13,9 @@
   --grey-dark-3: #999;
 
   --dark-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --light-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.09);
+
+  --line: 1px solid var(--grey-light-2);
 }
 
 * {

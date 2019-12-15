@@ -9,7 +9,9 @@
   --grey-dark-1: #333;
   --grey-dark-2: #777;
   --grey-dark-3: #999;
-  --dark-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3); }
+  --dark-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --light-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.09);
+  --line: 1px solid var(--grey-light-2); }
 
 * {
   padding: 0;
@@ -162,7 +164,7 @@ body {
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--grey-light-2); }
+  border-bottom: var(--line); }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
@@ -222,7 +224,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #ffffff;
-  border-bottom: 1px solid var(--grey-light-2);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -240,4 +242,20 @@ body {
 
 .art-view {
   background-color: #ffffff;
+  flex: 1; }
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--grey-light-1);
+  border-bottom: var(--line); }
+
+.description {
+  background-color: #ffffff;
+  box-shadow: var(--light-shadow);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
   flex: 1; }
