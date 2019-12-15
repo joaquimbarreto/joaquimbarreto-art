@@ -17,8 +17,8 @@
     <div class="container">
       <header class="header">
         <img src="img/logo.png" alt="" class="logo" />
-        <form action="" class="search_input">
-          <input type="text" class="input" />
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="Search arts" />
           <button class="search__button">
             <svg class="search__icon">
               <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
@@ -51,7 +51,43 @@
       </header>
       <div class="content">
         <nav class="sidebar">
-          Navigation
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Studio</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-camera"></use>
+                </svg>
+                <span>Photography</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-clapperboard"></use>
+                </svg>
+                <span>Film</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-laptop"></use>
+                </svg>
+                <span>Software</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">
+            &copy; 2019 by Joaquim Barreto
+          </div>
         </nav>
         <main class="art-view">
           Art view

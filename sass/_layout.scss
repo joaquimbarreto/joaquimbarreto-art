@@ -7,6 +7,7 @@
 }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #ffffff;
   border-bottom: var(--grey-light-2);
@@ -17,11 +18,17 @@
 
 .content {
   display: flex;
+
+  height: 500px;
 }
 
 .sidebar {
-  background-color: var(--grey-dark-2);
-  flex: 0 0 16%;
+  background-color: var(--grey-dark-1);
+  flex: 0 0 20%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .art-view {
