@@ -230,8 +230,7 @@ body {
   align-items: center; }
 
 .content {
-  display: flex;
-  height: 500px; }
+  display: flex; }
 
 .sidebar {
   background-color: var(--grey-dark-1);
