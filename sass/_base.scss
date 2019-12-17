@@ -18,6 +18,8 @@
   --line: 1px solid var(--grey-light-2);
 }
 
+$breakpoint-desktop: 75em; //1200px
+
 * {
   padding: 0;
   margin: 0;
@@ -32,6 +34,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $breakpoint-desktop) {
+    font-size: 50%;
+  }
 }
 
 body {
