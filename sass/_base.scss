@@ -19,6 +19,9 @@
 }
 
 $breakpoint-desktop: 75em; //1200px
+$breakpoint-tablet-landscape: 56.25em; //900px
+$breakpoint-tablet-portrait: 37.5em; //600px
+$breakpoint-phone: 25em; //400px
 
 * {
   padding: 0;
