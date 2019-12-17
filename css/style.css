@@ -210,8 +210,13 @@ body {
   background-color: transparent;
   cursor: pointer;
   transition: all 0.2s; }
+  .button-inline span {
+    margin-left: 3px;
+    transition: margin-left 0.2s; }
   .button-inline:hover {
     color: var(--grey-dark-1); }
+    .button-inline:hover span {
+      margin-left: 8px; }
 
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem; }
@@ -343,4 +348,7 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
